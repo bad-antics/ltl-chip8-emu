@@ -1,0 +1,15 @@
+// ltl-chip8-emu/main.ltl
+//
+// CHIP-8 interpreter with display quirks flags.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-chip8-emu v0.1.0")
+    io::println("CHIP-8 interpreter with display quirks flags.")
+    0
+}
